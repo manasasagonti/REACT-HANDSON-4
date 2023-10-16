@@ -1,0 +1,78 @@
+
+.navbar{
+   margin: 170px;
+   font-family: sans-serif;
+   font-style: italic;
+   font-weight: 150px;
+   font-weight: bolder;
+   text-decoration: none;
+    
+}
+.parent{
+    width: auto;
+    height: 30px;
+    padding: 20px;
+    background-color: paleturquoise;
+}
+.navbar:hover{
+    color: plum;
+}
+
+button{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+}
+.addNew{
+    width: auto;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  th , td{
+    border: 1px solid black;
+    padding: 15px;
+    border-collapse: collapse;
+    color: black;
+    font-weight: 30px;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+.cancel{
+    width: 150px;
+    height: 30px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.submit{
+    width: 150px;
+    height: 30px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
